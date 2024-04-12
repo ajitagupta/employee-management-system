@@ -28,7 +28,7 @@ For example, suppose that among an application's many components, you will addre
 
 This image illustrates the relationship between these beans and the Spring application context.
 
-![Spring application context](https://i.ibb.co/chYhgGj/uses-of-Java.jpg "Spring application context")
+![Spring application context](https://i.ibb.co/hW5Vx38/Spring-Application-Context.png "Spring application context")
 
 Source: *Spring in Action, Craig Walls*
 
