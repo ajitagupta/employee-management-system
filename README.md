@@ -22,8 +22,22 @@ The act of managing, configuring and assembling your object through an external 
 We can achieve Inversion of Control through various mechanisms such as: Strategy design pattern, Service Locator pattern, Factory pattern, and Dependency Injection (DI).
 
 ### Application Context
+Application components are managed and injected into each other by the Spring application context.
+
+For example, suppose that among an application's many components, you will address two: an inventory service (for fetching inventory levels) and a product service (for providing basic product information). The product service depends on the inventory service to be able to provide a complete set of information about products.
+
+This image illustrates the relationship between these beans and the Spring application context.
+
+![Spring application context](https://i.ibb.co/chYhgGj/uses-of-Java.jpg "Spring application context")
+
+Source: *Spring in Action, Craig Walls*
 
 ### Autowiring
+Automatic configuration has its roots in the Spring techniques known as autowiring and component scanning. With autowiring, Spring automatically injects the components with the other beans that they depend on.
 
 ### Component Scanning
+With component scanning, Spring can automatically discover components from an application's classpath and create them as beans in the Spring application context. 
+
+## What is Hibernate?
+
 
