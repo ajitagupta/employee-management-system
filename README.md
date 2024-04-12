@@ -45,7 +45,7 @@ When we talk about persistence in Java, we are normally talking about mapping an
 
 Almost all applications require persistent data. Persistence is one of the fundamental concepts in application development. If an information system didn't preserve data when it was powered off, the system would be of little practical use.
 
-In a normal software engineering environment, we think of the problems of data storage and sharing in the context of an object-oriented application that uses a domain model. Instead of directly working with the rows and columns of a java.sql.ResultSet, the business logic of an application interacts with the application-specific object-oriented domain model.
+In a normal software engineering environment, we think of the problems of data storage and sharing in the context of an object-oriented application that uses a domain model. The object/relational mismatch comes into play when the data store is an SQL-based relational database management system.
 
 ### ORM
 In a nutshell, object/relational mapping is the automated (and transparent) persistence of objects in a Java application to the tables in an SQL database, using metadata that describes the mapping between the classes of the application and the schema of the SQL database. In essence, ORM works by transforming (reversibly) data from one representation to another.
