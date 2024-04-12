@@ -30,7 +30,7 @@ This image illustrates the relationship between these beans and the Spring appli
 
 ![Spring application context](https://i.ibb.co/hW5Vx38/Spring-Application-Context.png "Spring application context")
 
-Source: *Spring in Action, Craig Walls, 2002*
+Source: *Spring in Action, Craig Walls, 2022*
 
 ### Autowiring
 Automatic configuration has its roots in the Spring techniques known as autowiring and component scanning. With autowiring, Spring automatically injects the components with the other beans that they depend on.
@@ -38,6 +38,14 @@ Automatic configuration has its roots in the Spring techniques known as autowiri
 ### Component Scanning
 With component scanning, Spring can automatically discover components from an application's classpath and create them as beans in the Spring application context. 
 
-## What is Hibernate?
+## What is Persistence?
 
+Object persistence means individual objects can outlive the application process; they can be saved to a data store and be re-created at a later point in time.
 
+When we talk about persistence in Java, we are normally talking about mapping and storing object instances in a database using SQL.
+
+Almost all applications require persistent data. Persistence is one of the fundamental concepts in application development. If an information system didn’t preserve data when it was powered off, the system would be of little practical use.
+
+## Hibernate
+
+## JPA
