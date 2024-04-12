@@ -30,7 +30,7 @@ This image illustrates the relationship between these beans and the Spring appli
 
 ![Spring application context](https://i.ibb.co/hW5Vx38/Spring-Application-Context.png "Spring application context")
 
-Source: *Spring in Action, Craig Walls*
+Source: *Spring in Action, Craig Walls, 2002*
 
 ### Autowiring
 Automatic configuration has its roots in the Spring techniques known as autowiring and component scanning. With autowiring, Spring automatically injects the components with the other beans that they depend on.
