@@ -1,6 +1,6 @@
 # Employee Management System
 
-The way we develop applications today is different than it was a year ago, 5 years ago, 10 years ago, and certainly 20 years ago, before an initial form of the Spring Framework was introduced in Rod Johnson’s book, Expert One-on-One J2EE Design and Development (Wrox, 2002, http://mng.bz/oVjy).
+The way we develop applications today is different than it was a year ago, 5 years ago, 10 years ago, and certainly 20 years ago, before an initial form of the Spring Framework was introduced in Rod Johnson’s book, Expert One-on-One J2EE Design and Development (Wrox, 2002).
 
 Back then, the most common types of applications developed were browser-based web applications, backed by relational databases. Although that type of development is still relevant—and Spring is well equipped for those kinds of applications—we're now also interested in developing applications composed of microservices destined for the cloud that persist data in a variety of databases.
 
