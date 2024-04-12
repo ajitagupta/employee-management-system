@@ -39,13 +39,26 @@ Automatic configuration has its roots in the Spring techniques known as autowiri
 With component scanning, Spring can automatically discover components from an application's classpath and create them as beans in the Spring application context. 
 
 ## What is Persistence?
-
-Object persistence means individual objects can outlive the application process; they can be saved to a data store and be re-created at a later point in time.
+Object persistence means individual objects can be saved to a data store and be re-created at a later point in time.
 
 When we talk about persistence in Java, we are normally talking about mapping and storing object instances in a database using SQL.
 
-Almost all applications require persistent data. Persistence is one of the fundamental concepts in application development. If an information system didn’t preserve data when it was powered off, the system would be of little practical use.
+Almost all applications require persistent data. Persistence is one of the fundamental concepts in application development. If an information system didn't preserve data when it was powered off, the system would be of little practical use.
 
-## Hibernate
+In a normal software engineering environment, we think of the problems of data storage and sharing in the context of an object-oriented application that uses a domain model. Instead of directly working with the rows and columns of a java.sql.ResultSet, the business logic of an application interacts with the application-specific object-oriented domain model.
 
-## JPA
+### ORM
+In a nutshell, object/relational mapping is the automated (and transparent) persistence of objects in a Java application to the tables in an SQL database, using metadata that describes the mapping between the classes of the application and the schema of the SQL database. In essence, ORM works by transforming (reversibly) data from one representation to another.
+
+In the case of applications with nontrivial business logic, the domain model approach helps to improve code reuse and maintainability significantly.
+
+ORM is an advanced technique used by developers who have already done it the hard way. It eliminates much of the grunt work and lets you concentrate on the business problem, (thereby increasing productivity).
+
+
+##  JPA and Hibernate
+
+Hibernate is an ORM framework, meaning it allows to map Java objects directly to tables in the database. It is a concrete implementation of the JPA (Java Persistence API) specification.
+
+JPA specifies how the data must be mapped using Java annotations, basic CRUD operations, Java Persistence Query Language (JPQL), and optimization strategies.
+
+Hibernate implements JPA and supports all the standardized mappings, queries, and programming interfaces.
