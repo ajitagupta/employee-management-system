@@ -59,6 +59,4 @@ ORM is an advanced technique used by developers who have already done it the har
 
 Hibernate is an ORM framework, meaning it allows to map Java objects directly to tables in the database. It is a concrete implementation of the JPA (Java Persistence API) specification.
 
-JPA specifies how the data must be mapped using Java annotations, basic CRUD operations, Java Persistence Query Language (JPQL), and optimization functions.
-
-Hibernate implements JPA and supports all the standardized mappings, queries, and programming interfaces.
+JPA specifies how the data must be mapped using Java annotations, basic CRUD operations, Java Persistence Query Language (JPQL), and optimization functions like caching.
