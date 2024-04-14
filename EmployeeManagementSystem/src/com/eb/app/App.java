@@ -19,20 +19,20 @@ public class App {
 
 		int choice = 0;
 		do {
-			System.out.println("press 1-Insert Student Data");
-			System.out.println("press 2-Read All Student Data");
-			System.out.println("press 3-Read Student Data By Id");
-			System.out.println("press 4-Update Student Data");
-			System.out.println("press 5-Delete Student Data");
+			System.out.println("press 1-Insert Employee Data");
+			System.out.println("press 2-Read All Employee Data");
+			System.out.println("press 3-Read Employee Data By Id");
+			System.out.println("press 4-Update Employee Data");
+			System.out.println("press 5-Delete Employee Data");
 			System.out.println("press 6-Exit");
 			System.out.println("Enter choice:");
 			choice = sc.nextInt();
 			switch (choice) {
 
 			case 1:
-				System.out.println("Enter Student Id:");
+				System.out.println("Enter Employee Id:");
 				int id = sc.nextInt();
-				System.out.println("Enter Student Name");
+				System.out.println("Enter Employee Name");
 				String sname = sc.next();
 				Employee s = new Employee(id, sname);
 				employeeDao.insert(s);
