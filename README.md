@@ -61,6 +61,6 @@ Hibernate is an ORM framework, meaning it allows to map Java objects directly to
 
 JPA specifies how the data must be mapped using Java annotations, basic CRUD operations, Java Persistence Query Language (JPQL), and optimization functions like caching.
 
-![Hibernate (ORM)](https://i.ibb.co/NC9BVrd/Screenshot-2024-04-18-142729.png" "Hibernate (ORM)")
+![Hibernate (ORM)](https://i.ibb.co/x1d12bh/Screenshot-2024-04-18-142729.png" "Hibernate (ORM)")
 
 Source: udemy
