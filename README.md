@@ -55,7 +55,7 @@ In the case of applications with nontrivial business logic, the domain model app
 ORM is an advanced technique used by developers who have already done it the hard way. It eliminates much of the grunt work and lets you concentrate on the business problem.
 
 
-##  JPA and Hibernate
+###  JPA and Hibernate
 
 Hibernate is an ORM framework, meaning it allows to map Java objects directly to tables in the database. It is a concrete implementation of the JPA (Jakarta Persistence API) specification.
 
